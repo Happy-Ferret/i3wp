@@ -1,0 +1,9 @@
+language: go
+go:
+  - 1.8
+
+# Setting sudo access to false will let Travis CI use containers rather than
+sudo: false
+
+script:
+  - go test -v github.com/mdirkse/i3-workspace-pegger
