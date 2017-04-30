@@ -3,4 +3,4 @@ go:
   - 1.8
 sudo: false # Setting sudo access to false will let Travis CI use containers rather than
 script:
-  - go test -v github.com/mdirkse/i3wp
+  - GOPATH=$(pwd) go test -v github.com/mdirkse/i3wp
