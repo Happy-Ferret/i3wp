@@ -13,7 +13,7 @@
 			"importpath": "github.com/mdirkse/i3ipc",
 			"repository": "https://github.com/mdirkse/i3ipc",
 			"vcs": "git",
-			"revision": "39ed47dbda05ee4b3d4176d8ece311980dd76edd",
+			"revision": "e1a1f24a8950a1fe3fada2ca5073fd79acb1d1e3",
 			"branch": "master",
 			"notests": true
 		},
