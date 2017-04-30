@@ -1,4 +1,4 @@
-package main
+package i3wp
 
 import (
 	"bytes"

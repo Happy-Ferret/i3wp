@@ -1,4 +1,4 @@
-package main
+package i3wp
 
 import (
 	"github.com/spf13/afero"
