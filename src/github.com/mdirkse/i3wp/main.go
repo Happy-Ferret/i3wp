@@ -1,4 +1,4 @@
-package i3_workspace_pegger
+package main
 
 import (
 	"bytes"
