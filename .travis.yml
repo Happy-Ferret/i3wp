@@ -1,6 +1,12 @@
+sudo: false
+
 language: go
+
 go:
-  - 1.8
-sudo: false # Setting sudo access to false will let Travis CI use containers rather than
+  - 1.8.x
+
 script:
-  - GOPATH=$(pwd) go test -v github.com/mdirkse/i3wp
+  - GOPATH=$(pwd) go test -v -coverprofile=coverage.txt -covermode=atomic github.com/mdirkse/i3wp
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
